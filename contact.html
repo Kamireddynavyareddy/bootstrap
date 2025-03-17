@@ -24,16 +24,84 @@
             <li><a class="nav-link" href="./employee.html">employee</a></li>
             <li><a class="nav-link" href="./services.html">services</a></li>
             <li><a class="nav-link" href="./contact.html">contact</a></li>
+            <li><a class="nav-link" href="./product.html">product</a></li>
             <li><a class="nav-link" href="./login.html">login</a></li>
         </ul>
     </div>
     </nav>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="./home.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="./product.html">product</a></li>
+          <li class="breadcrumb-item"><a href="./contact.html">contact</a></li>
+          <li class="breadcrumb-item"><a href="./employee.html">employeee</a></li>
+          <li class="breadcrumb-item"><a href="./log.html">login</a></li>
+          <li class="breadcrumb-item"><a href="./services.html">services</a></li>
+          <li class="breadcrumb-item active" aria-current="page">contact</li>
+        </ol>
+      </nav>
+    <div>
+        <h5>contact page</h5>
+    </div>
   
-    <div class="container mt-5">
+    <div class="container">
         <div class="row">
             <div class="col-6">
                 <!--contact form here-->
-                
+                <form>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="form-group">
+                                    <label>NAME</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                            </div>
+
+                            <div class="col-4">
+                                <div class="form-group">
+                                    <label>EMAIL</label>
+                                    <input type="email" class="form-control"/>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="form-group">
+                                    <label>NUMBER</label>
+                                    <input type="number" class="form-control"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="clo-8">
+                                <div class="form-group">
+                                    <label>SUBJECT</label>
+                                    <input type="text" class="form-control"/>
+                                </div>
+                            </div>
+                            <div class="col-4">
+
+                                <div class="form-group">
+                                    <label>SERVICES</label>
+                                    <select class="form-control">
+                                        <option>--select---</option>
+                                        <option>web application</option>
+                                        <option>web services</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="form-group">
+                                    <label>MESSAGES</label>
+                                    <textarea class="form-control" cols="30" rows="5"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="SUBMIT" class="btn btn-warning"/>
+                </form>
             </div>
             <div class="col-6">
                 <!--google map here-->
